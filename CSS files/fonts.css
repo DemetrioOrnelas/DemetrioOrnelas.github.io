@@ -28,6 +28,7 @@ body {/*Changes background color and text color and font.*/
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  line-height: 150%
 }
 p {
 	color: #fffff;
