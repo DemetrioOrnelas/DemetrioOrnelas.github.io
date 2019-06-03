@@ -11,13 +11,12 @@ body {/*Changes background color and text color and font.*/
 	background-color: #ffffff;
 	line-height: 1%;
 	font-family: "Times New Roman", Times, serif;
-	background-repeat:no-repeat;
 
 }
 .hero-image {
-  background-image: url("Images/Untitled-1.jpg"); /* The image used */
+  background-image: url("Images/Untitled-3.png"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 700px; /* You must set a specified height */
+  height:1000px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -25,7 +24,7 @@ body {/*Changes background color and text color and font.*/
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 49%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
@@ -48,9 +47,15 @@ h1{/*Changes color of every (h1) tags and font.*/
 }
 h2{
 font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif !important;
-	font-size: 24px;
+	font-size: 30px;
 	text-align: center;
 }
+h4{
+font-family: "Times New Roman", Times, serif;
+	font-size: 1px;
+	text-align: center;
+}
+
 a{/*Removes the underrline from links.*/
 	text-decoration: none;
 }
